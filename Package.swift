@@ -10,7 +10,7 @@ let package = Package(
            .target(
 		    name: "CloudCore",
 		    dependencies: [],
-		    path: "Sources",
+		    path: "Source",
 		    exclude: ["Tests"]
            )
     ]
