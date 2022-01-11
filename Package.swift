@@ -8,11 +8,11 @@ let package = Package(
     	],
     	targets: [
            .target(
-            name: "CloudCore",
-            dependencies: [],
-            path: ".",
-            exclude: ["Tests"]
-        )
+		    name: "CloudCore",
+		    dependencies: [],
+		    path: "Sources",
+		    exclude: ["Tests"]
+           )
     ]
 )
 
