@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
 	name: "CloudCore",
         platforms: [
-   	  .iOS(.v15), .macOS(.v10_15)
+   	  .iOS(.v13), .macOS(.v10_15)
         ],
 	products: [
           .library(name: "CloudCore", targets: ["CloudCore"])
@@ -13,8 +13,7 @@ let package = Package(
            .target(
 		    name: "CloudCore",
 		    dependencies: [],
-		    path: "Source",
-		    exclude: ["Tests"]
+		    path: "Source"
            )
     ]
 )
